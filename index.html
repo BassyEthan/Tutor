@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UCVTS Tutoring</title>
+    <link rel = "stylesheet" href = "style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet"> 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400&display=swap" rel="stylesheet"> 
+<link rel = "stylesheet" href = "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class = "header">
+        <nav>
+            <a href = "index.html"><img src = "logo(2).png"></a>
+            <div class = "nav-links" id = "navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+
+                <ul>
+                    <li><a href = "">HOME</a></li>
+                    <li><a href = "">ABOUT</a></li>
+                    <li><a href = "">CURRICULUM</a></li>
+                    <li><a href = "">CONTACT</a></li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class = "text-box">
+            <h1>Centre Tutoring</h1>
+            <a href = "" class= "hero-btn">Scroll Down To Learn More</a>
+        </div>
+    </section>
+
+    <!---About-->
+    <section class= "facilities">
+        <h1>About</h1>
+        <p>Important Information about our Non-Profit</p>
+        
+        <div class = "row">
+            <div class = "facilities-col">
+                <h3>Where</h3>
+                <p>We are located at the Westfield Memorial Library</p>
+            </div>
+            <div class = "facilities-col">
+                <h3>When</h3>
+                <p>We do our sessions once a week on Saturdays at 9am</p>
+            </div>
+            <div class = "facilities-col">
+                <h3>Cost</h3>
+                <p>So, we offer our students a first time free charge to see if they like our curriculum/tutors, and everytime after that is $15</p>
+                
+            </div>
+        </div>
+    
+    </section>
+
+    <!---Curriculum--->
+
+    <section class = "course">
+        <h1>Our Curriculum</h1>
+        <p>Our tutoring is focused on two areas. The UCVTS exam or just regular middle school tutoring. The UCVTS exam is focused on two essential parts. Math and Reading. Math problems will include questions from 6th-9th grade. Basic algebra, geometry, and fundamentals of math are included. Reading includes reading comprehension and grammar.</p>
+        
+
+        <div class = "row">
+            <div class = "course-col">
+                <h3>First</h3>
+                <p>
+                    Student will take practice test that will evaulate the student's strengths and weaknesses. Student will take Khan Academy tests and SSAT tests.
+                </p>
+            </div>
+            <div class = "course-col">
+                <h3>Second</h3>
+                <p>
+                    Tutor will then tutor students on their weaknesses and then give them problems to get better at solving them. 
+                </p>
+            </div>
+            <div class = "course-col">
+                <h3>Third</h3>
+                <p>
+                    Student will then retake these tests after all weaknesses are covered. If these weaknesses appear again on these tests, student will work on them more.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class = "cta">
+        <h1>Just Show Up!</h1>
+        <p class="hero-btn">CONTACT US</p>
+        <p class="hero-btn">leltutoring914@gmail.com</p>
+
+    </section>
+
+
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+
+
+
+
+</body>
+</html>
